@@ -38,7 +38,7 @@ source ~/.bash_profile
 ```
 go version
 ```
-[![alt text](https://i.hizliresim.com/chw0332.png)](https://github.com/CoinHuntersTR/Nibiru-Testnet-Rehberi/issues/1#issuecomment-1447747125)
+![nibiru-go-version](https://user-images.githubusercontent.com/111747226/221792839-d58986be-bee7-47f8-a943-c9dab3c7bb5b.png)
 
 - **Binary Yüklemesi**
 
@@ -68,7 +68,7 @@ sudo ln -s $HOME/.nibid/cosmovisor/current/bin/nibid /usr/local/bin/nibid
 ```
 nibid version
 ```
-![alt text](https://i.hizliresim.com/d688ybz.png)
+![nibi-version](https://user-images.githubusercontent.com/111747226/221792927-67a7f03d-29ed-44cf-bfb1-df04108cfe8f.png)
 
 - **Cosmovisor Kurulumu**
 
