@@ -200,6 +200,8 @@ nibid tx staking create-validator \
 --amount=1000000unibi \
 --pubkey=$(nibid tendermint show-validator) \
 --moniker="moniker-adınız" \
+--website="https://coinhunterstr.com/" \
+--details="https://linktr.ee/coinhunters" \
 --chain-id=nibiru-itn-1 \
 --commission-rate=0.10 \
 --commission-max-rate=0.20 \
