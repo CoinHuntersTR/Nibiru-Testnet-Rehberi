@@ -193,6 +193,7 @@ $request <cüzdan-adresiniz>
 
 
 **Validatör Kurulumu**
+> "moniker-adiniz" " dahil silip moniker adınızı yazın, cuzdanadi kısmını silip cüzdanadınızı yazmayı unutmayın.
 
 ```
 nibid tx staking create-validator \
@@ -204,7 +205,7 @@ nibid tx staking create-validator \
 --commission-max-rate=0.20 \
 --commission-max-change-rate=0.01 \
 --min-self-delegation=1 \
---from=wallet \
+--from=cuzdanadi \
 --gas-prices=0.1unibi \
 --gas-adjustment=1.5 \
 --gas=auto \
