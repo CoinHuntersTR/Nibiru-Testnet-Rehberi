@@ -1,15 +1,20 @@
-# Nibiru-Setup-Guide (Cosmovisor)
+# Nibiru Kurulum Rehberi
 
-![alt text](https://i.hizliresim.com/ary8n1w.png)
+![nibiru-odullu-testnet-rehberi](https://user-images.githubusercontent.com/111747226/221784033-027823c8-5cce-4459-bd27-225f4021216c.png)
 
-**Minimum Sistem Gereksinimleri**
 
-- **4 CPU**
-- **8GB RAM**
-- **160GB DISK**
+
+## Sistem gereksinimleri:
+
 - **Ubuntu 20.04+**
 
-- **Gerekli Güncellemeler ve Bağlılıklae**
+NODE TİPİ | CPU     | RAM      | SSD     |
+| ------------- | ------------- | ------------- | -------- |
+| Nibiru | 4          | 8         | 160  |
+  
+  
+
+- **Gerekli Güncellemeler ve Kurulum**
 
 ```
 sudo apt update && sudo apt upgrade -y && sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
