@@ -211,6 +211,8 @@ nibid tx staking create-validator \
 -y
 ```
 
+## Nibiru Testnet Explorer [Buradan](https://nibiru.explorers.guru/) ulaşabilirsiniz.
+
 ![alt text](https://i.hizliresim.com/r1ah10q.png)
 
 # Pricefeeder
