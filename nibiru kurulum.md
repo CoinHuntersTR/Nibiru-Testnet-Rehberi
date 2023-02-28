@@ -197,7 +197,7 @@ $request <cüzdan-adresiniz>
 
 ```
 nibid tx staking create-validator \
---amount=1000000unibi \
+--amount=100000unibi \
 --pubkey=$(nibid tendermint show-validator) \
 --moniker="moniker-adınız" \
 --website="https://coinhunterstr.com/" \
