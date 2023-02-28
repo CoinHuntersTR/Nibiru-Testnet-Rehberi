@@ -170,6 +170,10 @@ nibid status 2>&1 | jq .SyncInfo
 ```
 ![true-goruntu](https://user-images.githubusercontent.com/111747226/221793162-f7e5507c-5850-40da-8ee5-f6e643bdd540.png)
 
+- False komutunu aldığımızda diğer adımlara geçebiliriz.
+
+![false-goruntu](https://user-images.githubusercontent.com/111747226/221852501-31168ce3-3ad3-4a7f-816a-143bb181fd8f.png)
+
 - **Cüzdan Oluşturma**
 
 ```
