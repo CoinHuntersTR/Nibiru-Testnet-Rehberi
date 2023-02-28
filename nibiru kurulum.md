@@ -218,9 +218,11 @@ nibid tx staking create-validator \
 -y
 ```
 
+![validator-kurulum](https://user-images.githubusercontent.com/111747226/221853459-24f25f66-eb21-47a2-8baa-39f27a66f4b4.png)
+
 ## Nibiru Testnet Explorer [Buradan](https://nibiru.explorers.guru/) ulaşabilirsiniz.
 
-![alt text](https://i.hizliresim.com/r1ah10q.png)
+![validator-explorer](https://user-images.githubusercontent.com/111747226/221853708-ef580c0f-b6ab-44e7-b193-0b2efe10196d.png)
 
 # Pricefeeder
 
