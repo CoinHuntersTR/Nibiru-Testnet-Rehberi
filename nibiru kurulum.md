@@ -151,7 +151,7 @@ sudo systemctl enable nibid
 sudo systemctl restart nibid
 sudo journalctl -fu nibid -o cat
 ```
-![alt text](https://i.hizliresim.com/4590gqq.png)
+![log-kayitlari](https://user-images.githubusercontent.com/111747226/221793016-c4060cfb-a184-4b44-a853-b9a1a3a4d9de.png)
 
 
 - **İsteğe bağlı snap kullanabilirsiniz**
@@ -168,7 +168,7 @@ sudo systemctl start nibid && journalctl -u nibid -f --no-hostname -o cat
 ```
 nibid status 2>&1 | jq .SyncInfo
 ```
-![alt text](https://i.hizliresim.com/s18cuyk.png)
+![true-goruntu](https://user-images.githubusercontent.com/111747226/221793162-f7e5507c-5850-40da-8ee5-f6e643bdd540.png)
 
 - **Cüzdan Oluşturma**
 
@@ -181,7 +181,7 @@ nibid keys add wallet
 ```
 nibid keys add wallet --recover
 ```
-![alt text](https://i.hizliresim.com/8b40g1h.png)
+![cuzdan-geri-getirme](https://user-images.githubusercontent.com/111747226/221793299-9e8b93e5-a3ae-4213-a48f-65162d6a9d21.png)
 
 - **Nibiru Discord Kanalından Faucet**
 
@@ -189,7 +189,7 @@ nibid keys add wallet --recover
 
 $request <cüzdan-adresiniz>
 
-![alt text](https://i.hizliresim.com/r6ipu40.png)
+![faucet](https://user-images.githubusercontent.com/111747226/221793406-2d200c8a-15b6-4a57-baf0-770e4d6a8b4d.png)
 
 
 **Validatör Kurulumu**
