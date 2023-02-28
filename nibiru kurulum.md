@@ -38,7 +38,7 @@ source ~/.bash_profile
 ```
 go version
 ```
-![alt text](https://i.hizliresim.com/chw0332.png)
+[![alt text](https://i.hizliresim.com/chw0332.png)](https://github.com/CoinHuntersTR/Nibiru-Testnet-Rehberi/issues/1#issuecomment-1447747125)
 
 - **Binary Yüklemesi**
 
