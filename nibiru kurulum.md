@@ -224,6 +224,8 @@ nibid tx staking create-validator \
 
 ![validator-explorer](https://user-images.githubusercontent.com/111747226/221853708-ef580c0f-b6ab-44e7-b193-0b2efe10196d.png)
 
+# Aktif Sette değilseniz Buradan aşağısını yapmanıza gerek yok.
+
 # Pricefeeder
 
 ```
@@ -268,7 +270,6 @@ WantedBy=multi-user.target
 EOF
 ```
 
-![alt text](https://i.hizliresim.com/immai4k.png)
 
 ```
 sudo systemctl daemon-reload && \
@@ -284,12 +285,7 @@ journalctl -fu pricefeeder
 ```
 #Loglardaki valoper adresinin sizin validatörünüzün valoper adresi olduğuna dikkat edin.
 
-![alt text](https://i.hizliresim.com/dje36x7.png)
 
-
-#Eğer active sette değilseniz oylamalar fail olarak geçecektir.
-
-![alt text](https://i.hizliresim.com/beoplog.png)
 
 
 
