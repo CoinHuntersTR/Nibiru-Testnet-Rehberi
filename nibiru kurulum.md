@@ -231,6 +231,8 @@ nibid tx staking create-validator \
 ```
 curl -s https://get.nibiru.fi/pricefeeder! | bash
 ```
+- > mnemonic(validatör oluştururken kullandığınız) buraya cüzdan kelimelerinizi yazmanız gerekiyor.
+- > nibivaloper-adresiniz buraya yukarıda resimde görünüyor nibivaloper diye başlayan adres. bunu ekliyoruz. 
 
 ```
 export CHAIN_ID="nibiru-itn-1"
