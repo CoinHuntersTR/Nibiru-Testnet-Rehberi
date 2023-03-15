@@ -24,7 +24,7 @@ sudo su
 ```
 
 - Yedeğini almamız gerek projenin dosya yolunu yazmamız gerekiyor.
-- "projeadi-sonuna-d ekliyoruz" kısmını projeye göre değiştirebilirsiniz. Nibiru nibi, andromeda andromedad babylon babylond gibi
+- "projeadi-sonuna-d ekliyoruz" kısmını projeye göre değiştirebilirsiniz. Nibiru nibid, andromeda andromedad babylon babylond gibi
 - Kurulumu yaptıktan sonra genel dosya dizini /root/."projeadi-sonuna-d ekliyoruz"/config/priv_validator_key.json
 ```
 nano /root/."projeadi-sonuna-d ekliyoruz"/config/priv_validator_key.json
