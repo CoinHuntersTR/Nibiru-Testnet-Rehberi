@@ -41,7 +41,7 @@ CONTRACT_WASM="$HOME/nibidcontract/cw1_whitelist.wasm"
 ```
 nibid tx wasm store $CONTRACT_WASM --from $KEY_NAME --gas=2000000 --fees=50000unibi
 ```
-
+![nibir-1](https://user-images.githubusercontent.com/111747226/230396403-fa0924eb-dfaf-4a3f-a434-7ab00eb959bf.png)
 
 ## İşlemi onaylamak için `y` basın ve enterlayın.
 > `code id` ve `txhash` bir yere not edin.
@@ -52,12 +52,12 @@ nibid tx wasm store $CONTRACT_WASM --from $KEY_NAME --gas=2000000 --fees=50000un
 ```
 code: 0
 codespace: ""
-data: 0A470A1E2F636F736D7761736D2E7761736D2E76312E4D736753746F7265436F646512250897021220A1E2AA264EA3E9D6F1D59D10DED2C6D72BA741C5D8E6999A41EC3F2E6B4C7741
+data: 0A470A1E2F636F736D7761736D2E7761736D2E76312E4D736753746F7265436F6465122508E4021220A1E2AA264EA3E9D6F1D59D10DED2C6D72BA741C5D8E6999A41EC3F2E6B4C7741
 events:
 - attributes:
   - index: true
     key: c3BlbmRlcg==
-    value: bmliaTF4eG42dGdkYzc1Z2RoOWw5dGx2bmN5NDVkeXRzaGt2eGNsMG02YQ==
+    value: bmliaTFlbGp1eTgzbjV5ZzB2ejh0ZnRlbHl6YXR5NXdwdWdlZ203c3I5Yw==
   - index: true
     key: YW1vdW50
     value: NTAwMDB1bmliaQ==
@@ -76,7 +76,7 @@ events:
     value: bmliaTE3eHBmdmFrbTJhbWc5NjJ5bHM2Zjg0ejNrZWxsOGM1bDh1OGV6dw==
   - index: true
     key: c2VuZGVy
-    value: bmliaTF4eG42dGdkYzc1Z2RoOWw5dGx2bmN5NDVkeXRzaGt2eGNsMG02YQ==
+    value: bmliaTFlbGp1eTgzbjV5ZzB2ejh0ZnRlbHl6YXR5NXdwdWdlZ203c3I5Yw==
   - index: true
     key: YW1vdW50
     value: NTAwMDB1bmliaQ==
@@ -84,7 +84,7 @@ events:
 - attributes:
   - index: true
     key: c2VuZGVy
-    value: bmliaTF4eG42dGdkYzc1Z2RoOWw5dGx2bmN5NDVkeXRzaGt2eGNsMG02YQ==
+    value: bmliaTFlbGp1eTgzbjV5ZzB2ejh0ZnRlbHl6YXR5NXdwdWdlZ203c3I5Yw==
   type: message
 - attributes:
   - index: true
@@ -94,12 +94,12 @@ events:
 - attributes:
   - index: true
     key: YWNjX3NlcQ==
-    value: bmliaTF4eG42dGdkYzc1Z2RoOWw5dGx2bmN5NDVkeXRzaGt2eGNsMG02YS84OTI1
+    value: bmliaTFlbGp1eTgzbjV5ZzB2ejh0ZnRlbHl6YXR5NXdwdWdlZ203c3I5Yy80MTUy
   type: tx
 - attributes:
   - index: true
     key: c2lnbmF0dXJl
-    value: L1hRYlhNSXJuUGZ2NmZHWlFmOE8vbmkwdy90QUhpTGZZekc5d3hRcmNpRkdlWVZMOHFuVXpwMWxCYVA3dEtoVnlkZERBVVdJdFpZQTY5K2tGdzJXS0E9PQ==
+    value: ZG5oalJrN2FPU0FpSUpmYTJmT1FYaDR6enFXNGFLM0NiRGpsbTlUSGx1Y2RENHZIUmZ3cGJKU3IyRmlRSDRHbDFvbFlEbTR5aS9KRWlFbTBXWHdmZUE9PQ==
   type: tx
 - attributes:
   - index: true
@@ -112,7 +112,7 @@ events:
     value: d2FzbQ==
   - index: true
     key: c2VuZGVy
-    value: bmliaTF4eG42dGdkYzc1Z2RoOWw5dGx2bmN5NDVkeXRzaGt2eGNsMG02YQ==
+    value: bmliaTFlbGp1eTgzbjV5ZzB2ejh0ZnRlbHl6YXR5NXdwdWdlZ203c3I5Yw==
   type: message
 - attributes:
   - index: true
@@ -120,11 +120,11 @@ events:
     value: YTFlMmFhMjY0ZWEzZTlkNmYxZDU5ZDEwZGVkMmM2ZDcyYmE3NDFjNWQ4ZTY5OTlhNDFlYzNmMmU2YjRjNzc0MQ==
   - index: true
     key: Y29kZV9pZA==
-    value: Mjc5
+    value: MzU2
   type: store_code
-gas_used: "1426576"
+gas_used: "1426624"
 gas_wanted: "2000000"
-height: "1654067"
+height: "1662188"
 info: ""
 logs:
 - events:
@@ -134,24 +134,27 @@ logs:
     - key: module
       value: wasm
     - key: sender
-      value: nibi1xxn6tgdc75gdh9l9tlvncy45dytshkvxcl0m6a
+      value: nibi1eljuy83n5yg0vz8tftelyzaty5wpugegm7sr9c
     type: message
   - attributes:
     - key: code_checksum
       value: a1e2aa264ea3e9d6f1d59d10ded2c6d72ba741c5d8e6999a41ec3f2e6b4c7741
     - key: code_id
-      value: "279"
+      value: "356"
     type: store_code
   log: ""
   msg_index: 0
-raw_log: '[{"events":[{"type":"message","attributes":[{"key":"action","value":"/cosmwasm.wasm.v1.MsgStoreCode"},{"key":"module","value":"wasm"},{"key":"sender","value":"nibi1xxn6tgdc75gdh9l9tlvncy45dytshkvxcl0m6a"}]},{"type":"store_code","attributes":[{"key":"code_checksum","value":"a1e2aa264ea3e9d6f1d59d10ded2c6d72ba741c5d8e6999a41ec3f2e6b4c7741"},{"key":"code_id","value":"279"}]}]}]'
+raw_log: '[{"events":[{"type":"message","attributes":[{"key":"action","value":"/cosmwasm.wasm.v1.MsgStoreCode"},{"key":"module","value":"wasm"},{"key":"sender","value":"nibi1eljuy83n5yg0vz8tftelyzaty5wpugegm7sr9c"}]},{"type":"store_code","attributes":[{"key":"code_checksum","value":"a1e2aa264ea3e9d6f1d59d10ded2c6d72ba741c5d8e6999a41ec3f2e6b4c7741"},{"key":"code_id","value":"356"}]}]}]'
 timestamp: ""
 tx: null
-txhash: 11A3D0045FCD92BC453CE2D439305D25DDA0609C2DA85CD33DB840C9B2556D67
+txhash: 6EE1B8846EF953DB331ADEA6DA90DBECB1001E1E1987D6E06EBA3565E1E239DA
+
 ```
+
 
 ## `code id` ve `txhash` bir yere not edin.
 
+![nibiru-2](https://user-images.githubusercontent.com/111747226/230396535-165d85f5-9dc4-4270-9c4b-4a9de9a79bb1.png)
 
 ### `Code Id` bilgilerinizi öğrenmek için aşağıdaki komutu kullanın.
 ```
@@ -160,8 +163,14 @@ nibid query wasm code-info CODEIDYAZIN
 
 ### Örnek Komut:
 ```
-nibid query wasm code-info 279
+nibid query wasm code-info 356
 ```
+![nibiru-4](https://user-images.githubusercontent.com/111747226/230396657-e7f49434-0979-43a8-83b1-de07d755f118.png)
+
+### Explorer'dan Kontrol Etmek için
+* Çıktıda aldığınız TXH'nızı [BURADAN](https://nibiru.exploreme.pro/) aramna kutusuna yazdığınız zaman aşağıdakine benzer çıktı alabiliyorsunuz.
+
+![nibiru-3](https://user-images.githubusercontent.com/111747226/230396829-604a3a1e-25ab-4f65-8c92-83ad21a0dade.png)
 
 ### Herhangi bir sorunuz varsa, discord'da sorabilirsiniz : [Discord](https://discord.gg/H2b69CFqrK)
 
