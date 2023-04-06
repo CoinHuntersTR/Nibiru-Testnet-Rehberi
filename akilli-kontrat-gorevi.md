@@ -42,12 +42,10 @@ CONTRACT_WASM="$HOME/nibidcontract/cw1_whitelist.wasm"
 nibid tx wasm store $CONTRACT_WASM --from $KEY_NAME --gas=2000000 --fees=50000unibi
 ```
 
-<img width="606" alt="image" src="https://user-images.githubusercontent.com/107190154/230308412-75637254-011c-4ba3-8152-e423b7287431.png">
 
 ## İşlemi onaylamak için `y` basın ve enterlayın.
 > `code id` ve `txhash` bir yere not edin.
 
-<img width="1203" alt="gthtgr" src="https://user-images.githubusercontent.com/107190154/230311190-ecb0ec0b-9590-4d8d-86ed-3041647896cd.png">
 
 
 ### Örnek Çıktı:
@@ -154,7 +152,6 @@ txhash: 11A3D0045FCD92BC453CE2D439305D25DDA0609C2DA85CD33DB840C9B2556D67
 
 ## `code id` ve `txhash` bir yere not edin.
 
-<img width="453" alt="asdasda" src="https://user-images.githubusercontent.com/107190154/230312422-49f13ad1-fe53-4df2-bdc0-b6706818ab81.png">
 
 ### `Code Id` bilgilerinizi öğrenmek için aşağıdaki komutu kullanın.
 ```
@@ -166,14 +163,6 @@ nibid query wasm code-info CODEIDYAZIN
 nibid query wasm code-info 279
 ```
 
-### Örnek Çıktı:
+### Herhangi bir sorunuz varsa, discord'da sorabilirsiniz : [Discord](https://discord.gg/H2b69CFqrK)
 
-![image](https://user-images.githubusercontent.com/107190154/230310001-6664577a-f52c-4abc-b903-51354056ca23.png)
-
-## TX kontrol edelim: 
-
-<img width="1260" alt="image" src="https://user-images.githubusercontent.com/107190154/230322578-36951010-9278-4623-9ff9-a379bb0e0389.png">
-
-### Herhangi bir sorunuz varsa, discord'da sorabilirsiniz : https://discord.gg/EPF8ZxD9zP
-
-### BlackOwl Twitter : https://twitter.com/brsbtc 
+### CoinHunters Telegram : [Telegram](https://t.me/CoinHuntersTR/34102) 
