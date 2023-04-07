@@ -4,6 +4,13 @@
 
 ![Nibiru Teşvikli Test Ağı](https://user-images.githubusercontent.com/107190154/230292010-0829ac0c-b088-4354-96cb-5aa236465060.png)
 
+## Node Jail duruma gelmiş ise aşağıdaki kodu kullanıyoruz.
+* cüzdanadresi bölümüne kendi cüzdan adresinizi yazabilirsiniz.
+
+```
+nibid tx slashing unjail --from cüzdanadresi --chain-id nibiru-itn-1 --gas-adjustment 1.4 --gas auto --gas-prices 0.025unibi -y
+```
+
 
 ## Adımları sırasıyla yaparsanız sorunsuz şekilde yaparsınız.
 
